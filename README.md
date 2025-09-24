@@ -89,7 +89,6 @@ Berikut adalah beberapa tampilan dari sistem **E-Filing** (total 14 gambar):
 2. Install dependency Laravel
    <pre>
    composer install
-   npm install && npm run dev
    </pre>
 
 3. Konfigurasi file `.env`
@@ -112,14 +111,3 @@ Berikut adalah beberapa tampilan dari sistem **E-Filing** (total 14 gambar):
    </pre>
 
 ---
-
-## 👨‍💻 Cara Penggunaan
-1. Login menggunakan akun Admin (default: `admin@gmail.com` / `password`)
-2. Tambahkan kategori dokumen sesuai kebutuhan.
-3. Upload dokumen ke sistem.
-4. Gunakan fitur pencarian untuk menemukan dokumen dengan cepat.
-5. Cetak laporan jika diperlukan.
-
----
-
-## 📊 Struktur Folder
