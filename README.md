@@ -6,7 +6,6 @@ Dengan sistem ini, alur administrasi menjadi lebih **efisien, aman, dan mudah di
 ---
 
 ## 🚀 Fitur Utama
-- ✅ Upload & unduh dokumen (PDF, DOCX, XLSX, dll.)
 - ✅ Manajemen kategori dokumen
 - ✅ Pencarian dokumen cepat (full-text search)
 - ✅ Manajemen user dengan role (Admin, Petugas, Pengguna)
