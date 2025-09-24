@@ -1,66 +1,125 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 📂 E-Filing - Sistem Informasi Manajemen Dokumen
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+E-Filing adalah **Sistem Informasi Manajemen Dokumen** berbasis web yang dirancang untuk membantu instansi atau perusahaan dalam melakukan pengelolaan, penyimpanan, pencarian, dan pelacakan dokumen secara digital.  
+Dengan sistem ini, alur administrasi menjadi lebih **efisien, aman, dan mudah diakses** kapan saja.
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 🚀 Fitur Utama
+- ✅ Upload & unduh dokumen (PDF, DOCX, XLSX, dll.)
+- ✅ Manajemen kategori dokumen
+- ✅ Pencarian dokumen cepat (full-text search)
+- ✅ Manajemen user dengan role (Admin, Petugas, Pengguna)
+- ✅ Tracking status dokumen
+- ✅ Laporan & riwayat aktivitas
+- ✅ Notifikasi otomatis (opsional)
+- ✅ Cetak laporan dokumen
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Sistem **E-Filing** ini memiliki **4 role utama** dalam pengelolaan dokumen:
+- 👨‍💼 **Admin** → bertanggung jawab penuh terhadap manajemen sistem, user, dan konfigurasi umum.  
+- 🧑‍⚕️ **Kepala Rekam Medis** → mengawasi dan memverifikasi dokumen yang masuk, serta memonitor aktivitas petugas.  
+- 📋 **Petugas Rekam Medis** → mengelola dokumen, melakukan input data, dan melayani permintaan dari perawat.  
+- 👩‍⚕️ **Perawat** → dapat mengakses, mengajukan, dan melihat dokumen sesuai kebutuhan pelayanan medis.  
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 🛠️ Teknologi yang Digunakan
+- **Backend**: Laravel 10
+- **Frontend**: Blade + Bootstrap
+- **Database**: MySQL
+- **Authentication**: Laravel middleware
+- **Lainnya**: Laravel Scheduler, Laravel Notification
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 📸 Dokumentasi Gambar
 
-## Laravel Sponsors
+## 📸 Dokumentasi Gambar
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Berikut adalah beberapa tampilan dari sistem **E-Filing** (total 14 gambar):
 
-### Premium Partners
+<table>
+  <tr>
+    <td align="center"><b>1. Login Page</b><br><img src="https://github.com/Mkenziq23/e-Filling/blob/main/public/img%20E-filling/login.png" width="400"></td>
+    <td align="center"><b>2. Dashboard</b><br><img src="https://github.com/Mkenziq23/e-Filling/blob/main/public/img%20E-filling/dashboard.png" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>3. Permintaan Peminjaman Berkas</b><br><img src="https://github.com/Mkenziq23/e-Filling/blob/main/public/img%20E-filling/permintaan%20peminjaman%20berkas.png" width="400"></td>
+    <td align="center"><b>4. Data Pengguna</b><br><img src="https://github.com/Mkenziq23/e-Filling/blob/main/public/img%20E-filling/data%20pengguna.png" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>5. Data Doktor</b><br><img src="https://github.com/Mkenziq23/e-Filling/blob/main/public/img%20E-filling/data%20dokter.png" width="400"></td>
+    <td align="center"><b>6. Data Pasien</b><br><img src="https://github.com/Mkenziq23/e-Filling/blob/main/public/img%20E-filling/data%20pasien.png" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>7. Data Peminjaman</b><br><img src="https://github.com/Mkenziq23/e-Filling/blob/main/public/img%20E-filling/data%20peminjaman.png" width="400"></td>
+    <td align="center"><b>8. Data Pengembalian</b><br><img src="https://github.com/Mkenziq23/e-Filling/blob/main/public/img%20E-filling/data%20pengembalian.png" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>9. Permintaan Peminjaman</b><br><img src="https://github.com/Mkenziq23/e-Filling/blob/main/public/img%20E-filling/permintaan%20peminjaman.png" width="400"></td>
+    <td align="center"><b>10. Laporan Peminjaman</b><br><img src="https://github.com/Mkenziq23/e-Filling/blob/main/public/img%20E-filling/laporan%20peminjaman.png" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>11. Notifikasi</b><br><img src="docs/images/notification.png" width="400"></td>
+    <td align="center"><b>12. Tracking Dokumen</b><br><img src="docs/images/tracking.png" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>13. Laporan Pengembalian</b><br><img src="https://github.com/Mkenziq23/e-Filling/blob/main/public/img%20E-filling/laporan%20pengembalian.png" width="400"></td>
+    <td align="center"><b>14. Laporan Keterlambatan</b><br><img src="https://github.com/Mkenziq23/e-Filling/blob/main/public/img%20E-filling/laporan%20keterlambatan.png" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>13. Laporan Kelengkapan</b><br><img src="https://github.com/Mkenziq23/e-Filling/blob/main/public/img%20E-filling/laporan%20kelengkapan.png" width="400"></td>
+    <td align="center"><b>14. Laporan Keterlambatan</b><br><img src="https://github.com/Mkenziq23/e-Filling/blob/main/public/img%20E-filling/logout.png" width="400"></td>
+  </tr>
+</table>
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## ⚙️ Instalasi
 
-## Code of Conduct
+1. Clone repository
+   <pre>
+   git clone https://github.com/username/e-filing.git
+   cd e-filing
+   </pre>
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+2. Install dependency Laravel
+   <pre>
+   composer install
+   npm install && npm run dev
+   </pre>
 
-## Security Vulnerabilities
+3. Konfigurasi file `.env`
+   <pre>
+   APP_NAME=E-Filing
+   APP_URL=http://localhost:8000
+   DB_DATABASE=efiling_db
+   DB_USERNAME=root
+   DB_PASSWORD=
+   </pre>
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+4. Jalankan migrasi & seeder
+   <pre>
+   php artisan migrate --seed
+   </pre>
 
-## License
+5. Jalankan aplikasi
+   <pre>
+   php artisan serve
+   </pre>
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+
+## 👨‍💻 Cara Penggunaan
+1. Login menggunakan akun Admin (default: `admin@gmail.com` / `password`)
+2. Tambahkan kategori dokumen sesuai kebutuhan.
+3. Upload dokumen ke sistem.
+4. Gunakan fitur pencarian untuk menemukan dokumen dengan cepat.
+5. Cetak laporan jika diperlukan.
+
+---
+
+## 📊 Struktur Folder
